@@ -1,3 +1,11 @@
+# FastAPI Examples
+[FastAPI](https://fastapi.tiangolo.com/) is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+
+This repository is the outcome from personal FastAPI practice to build a ML inference server.
+
+## Contents
+TBD
+
 ## File Structure
 ```bash
 .
