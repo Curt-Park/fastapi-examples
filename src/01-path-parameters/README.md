@@ -2,7 +2,7 @@ https://fastapi.tiangolo.com/tutorial/path-params/
 
 ## Run the live server
 
-`$ uvicorn src.01-hello-fastapi.main:app --reload`
+`$ uvicorn src.01-path-parameters.main:app --reload`
 
 - `--reload`: make the server restart after code changes
 
