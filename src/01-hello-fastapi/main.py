@@ -45,3 +45,14 @@ async def get_model(model_name: ModelName) -> Dict[str, str]:
     else:
         message = "Have some residuals"
     return {"model_name": model_name, "message": message}
+
+
+# :path tells it that the parameter should match any path.
+# You could need the parameter to contain /home/john/file.txt,
+# with a leading slash (/).
+# In that case, the URL would be: /files//home/john/file.txt,
+# with a double slash (//) between files and home.
+@app.get("/files/{file_path:path}")
+async def read_file(file_path: str) -> Dict[str, str]:
+    """Pass file path."""
+    return {"file_path": file_path}

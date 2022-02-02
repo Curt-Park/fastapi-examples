@@ -1,3 +1,5 @@
+https://fastapi.tiangolo.com/tutorial/path-params/
+
 ## Run the live server
 
 `$ uvicorn src.01-hello-fastapi.main:app --reload`
@@ -12,3 +14,4 @@
     - Note: The data validation is performed under the hood by [Pydantic](https://pydantic-docs.helpmanual.io/).
 - [http://127.0.0.1:8000/models/model-name](http://127.0.0.1:8000/models/resnet): Model names in Enum only valid
     - See documentation
+- [http://127.0.0.1:8000/files/filepath](http://127.0.0.1:8000/files/filepath): Pass a filepath
