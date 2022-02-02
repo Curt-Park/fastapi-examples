@@ -4,7 +4,7 @@
 This repository is the outcome from personal FastAPI practice to build a ML inference server.
 
 ## Contents
-TBD
+- [01-path-parameters](src/01-path-parameters)
 
 ## File Structure
 ```bash
